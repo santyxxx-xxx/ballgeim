@@ -1,66 +1,58 @@
-# Kotlin Gravity Ball Game
+# 🎮 Gravity Game - Android Kotlin
 
-Proyecto Android Studio en Kotlin para una clase taller de sensores.
+Juego móvil desarrollado en Android Studio usando Kotlin y sensores del acelerómetro.
+SANTIAGO VARGAS
+---
 
-## Qué hace
+## 🚀 Descripción
 
-- Usa el acelerómetro del celular.
-- Mueve una bolita con la inclinación del dispositivo.
-- Tiene objetivos verdes, obstáculos rojos, puntaje, vidas y vibración.
-- No usa dependencias externas para facilitar la compilación.
+Gravity Game es un juego donde controlas una bola usando la inclinación del teléfono.  
+El objetivo es recoger puntos, evitar obstáculos y sobrevivir el mayor tiempo posible.
 
-## Cómo abrirlo en Android Studio
+---
 
-1. Descomprime el ZIP.
-2. Abre Android Studio.
-3. Selecciona **File > Open**.
-4. Elige la carpeta `KotlinGravityGame`.
-5. Espera a que Android Studio sincronice Gradle.
-6. Conecta un celular Android con depuración USB activada.
-7. Presiona **Run**.
+## 🎯 Cómo jugar
 
-## Cómo generar APK
+- Inclina el teléfono para mover la bola 🔵  
+- Atrapa el objetivo morado 🟣 para ganar puntos  
+- Evita los obstáculos rojos 🔴  
+- No pierdas todas tus vidas ❤️  
+- Sobrevive y sube de nivel ⭐  
+<img width="1080" height="2277" alt="image" src="https://github.com/user-attachments/assets/cf94a1f8-eba9-48b9-91f1-cd4a090588f2" />
+<img width="1080" height="2277" alt="image" src="https://github.com/user-attachments/assets/1ff55578-a982-420a-81e7-a1f9c154848b" />
+<img width="1080" height="2277" alt="image" src="https://github.com/user-attachments/assets/e763b262-5973-409c-9b0a-70becd34d26d" />
+<img width="302" height="343" alt="image" src="https://github.com/user-attachments/assets/a65d4db8-1fec-448a-98d8-8ca4b5701102" />
 
-En Android Studio:
 
-```bash
-Build > Build Bundle(s) / APK(s) > Build APK(s)
-```
 
-El APK debug se genera normalmente en:
+---
 
-```bash
-app/build/outputs/apk/debug/app-debug.apk
-```
+## 🧠 Características
 
-## Configuración técnica
+- 🎮 Control por acelerómetro
+- 🔵 Bola con movimiento suave
+- 🟣 Objetivo con puntos
+- 🔴 Obstáculos móviles
+- ⭐ Sistema de niveles
+- ❤️ Sistema de vidas
+- 🎮 Pantalla de inicio
+- 💀 Game Over
+- 📊 HUD con puntaje, nivel y coordenadas
+
+---
+
+## 🛠 Tecnologías usadas
 
 - Kotlin
-- Android Gradle Plugin 8.7.3
-- Kotlin Plugin 2.0.21
-- compileSdk 35
-- targetSdk 35
-- minSdk 24
-- Java 17
+- Android Studio
+- Canvas 2D
+- SensorManager (Accelerometer)
+- Física básica de colisiones
 
-## Archivos principales
+---
 
-```text
-app/src/main/java/com/epn/gravitygame/
-├── MainActivity.kt
-├── GameView.kt
-├── Ball.kt
-├── Target.kt
-├── Obstacle.kt
-├── Collision.kt
-└── Vector2.kt
-```
+## 📱 Instalación
 
-## Ideas para extender en clase
-
-- Agregar pantalla de inicio.
-- Agregar niveles.
-- Guardar récord con SharedPreferences.
-- Agregar sonidos.
-- Cambiar obstáculos dinámicamente.
-- Agregar cuenta regresiva.
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/santyxxx-xxx/ballgeim.git
